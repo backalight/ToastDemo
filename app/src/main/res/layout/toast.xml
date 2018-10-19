@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llToast"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:background="@drawable/roundborder"
+    a
+
+   >
+
+    <ImageView
+        android:id="@+id/ivToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/toast"/>
+    <TextView
+        android:id="@+id/tvToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ce toast est quand même bien plus joli que le toast par default"
+        android:textColor="#f4f1f1"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>
