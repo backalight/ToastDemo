@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import static fr.formation.toastdemo.Tools.affNotif;
 import static fr.formation.toastdemo.Tools.affToast;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,5 +24,9 @@ TextView tvToast;
         String msg ="Ce toast est quand même bien plus joli que le toast par default";
        affToast(act,msg);
 
+    }
+
+    public void notif(View view) {
+        affNotif(this,"OOPS","I did it again!!!");
     }
 }
