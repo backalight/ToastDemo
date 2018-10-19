@@ -6,11 +6,12 @@
     android:orientation="horizontal"
     android:layout_gravity="center"
     android:background="@drawable/roundborder"
-    a
+    android:padding="5sp"
 
    >
 
     <ImageView
+        android:paddingRight="5sp"
         android:id="@+id/ivToast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
